@@ -10,7 +10,7 @@ function Home() {
       <div className="md:flex items-center mb-12">
         <div className="md:w-1/3 mb-6 md:mb-0">
           <img 
-            src="/path/to/your/home-image.jpg" 
+            src="/images/home-image.jpg" 
             alt="Your Name" 
             className="rounded-lg w-full max-w-sm mx-auto shadow-lg"
           />
