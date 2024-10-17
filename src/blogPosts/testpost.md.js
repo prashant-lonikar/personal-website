@@ -1,16 +1,10 @@
-// src/blogPosts/my-first-blog-post.md.js
-
 export const metadata = {
-  title: 'My Second Blog Post',
-  date: '2024-10-17'
+  title: 'Post 2',
+  date: '2024-03-20'
 };
 
 export const content = `
-# Welcome to my second blog post!
+# My Blog Post Title
 
-This is a paragraph in my second blog post.
-
-## This is a heading
-
-This is another paragraph.
+This is the content of my blog post...
 `;

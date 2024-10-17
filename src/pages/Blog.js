@@ -83,6 +83,17 @@ function Blog() {
         ) : (
           currentPosts.map((post) => (
             <article key={post.id} className="border rounded-lg overflow-hidden shadow-md">
+              <div className="h-48 overflow-hidden">
+                {post.image ? (
+                  <img 
+                    src={post.image} 
+                    alt={post.title} 
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                )}
+              </div>
               <div className="p-4">
                 <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
                 <p className="text-gray-600 mb-4">Published on: {post.date}</p>
