@@ -8,4 +8,7 @@ export const content = `
 # My Blog Post Title
 
 This is the content of my blog post...
+
+![Blog post image](/images/my-blog-post-image.jpg)
+
 `;
