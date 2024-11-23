@@ -3,15 +3,26 @@ import React from 'react';
 function Projects() {
   const projects = [
     {
-      title: "Example Project 1",
-      description: "This is a brief description of the first project...",
-      githubLink: "https://github.com/yourusername/project1"
+      title: "Token Counter",
+      description: "This is a token counter for LLMsthat counts the number of tokens in a given text or file, and estimates the cost of the tokens per model.",
+      githubLink: "https://token-counter-two.vercel.app/"
     },
     {
-      title: "Example Project 2",
-      description: "This is a brief description of the second project...",
-      githubLink: "https://github.com/yourusername/project2"
+      title: "Personal Diary App",
+      description: "This is a personal diary app that allows you to write and save your thoughts and feelings. It is built using Next.js, Tailwind CSS, and Firebase.",
+      githubLink: "https://personal-diary-554d7.web.app/"
+    },
+    {
+      title: "Text summarizer",
+      description: "This is a tool that allows you to create data and summarize text from files.",
+      githubLink: "https://prashant-lonikar.github.io/text-summarizer/"
+    },
+    {
+      title: "Word counter",
+      description: "This is a tool that allows you to count the number of words in a given text.",
+      githubLink: "https://prashant-lonikar.github.io/word-counter/"
     }
+
   ];
 
   return (
@@ -19,10 +30,10 @@ function Projects() {
       <h1 className="text-4xl font-bold mb-6">Projects</h1>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="border p-4 rounded-lg shadow-md">
+          <div key={index} className="border p-4 rounded-lg shadow-md flex flex-col justify-between h-full">
             <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
             <p className="mb-4">{project.description}</p>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">View on GitHub</a>
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">View Project</a>
           </div>
         ))}
       </div>

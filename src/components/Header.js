@@ -11,7 +11,7 @@ function Header() {
     <header className="bg-gray-800 text-white">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-xl font-bold">Your Name</Link>
+          <Link to="/" className="text-xl font-bold">Prashant Lonikar</Link>
           <button onClick={toggleMenu} className="md:hidden">
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
