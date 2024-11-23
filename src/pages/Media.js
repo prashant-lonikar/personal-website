@@ -20,7 +20,6 @@ function Media() {
       date: "2013-03-08",
       link: "https://timesofindia.indiatimes.com/city/nashik/nashik-students-bag-gold-silver-medals-in-state-level-science-meet/articleshow/18856469.cms"
     },
-    ,
     {
       title: "ICSE results out, AUS duo share pole position",
       outlet: "Times of India",
