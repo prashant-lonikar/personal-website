@@ -1,9 +1,10 @@
 export const metadata = {
-    title: 'Liquid AI',
-    date: '2024-10-18'
-  };
-  
-  export const content = `
+  title: 'Liquid AI',
+  date: '2024-10-09',
+  image: '/images/liquid-ai-banner.jpeg'
+};
+
+export const content = `
   # Liquid Foundational Models (LFMs)
 
 *Posted by Prashant Lonikar on October 9, 2024*

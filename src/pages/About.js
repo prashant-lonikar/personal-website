@@ -7,7 +7,7 @@ function About() {
       <div className="md:flex md:space-x-6">
         <div className="md:w-1/3 mb-6 md:mb-0">
           <img
-            src="/profile-picture.jpg"
+            src="/images/about-me.jpg"
             alt="Prashant Lonikar"
             className="rounded-full w-48 h-48 mx-auto object-cover shadow-lg"
           />

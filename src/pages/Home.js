@@ -9,17 +9,17 @@ function Home() {
     <div className="home">
       <div className="md:flex items-center mb-12">
         <div className="md:w-1/3 mb-6 md:mb-0">
-          <img 
-            src="/images/home-image.jpg" 
-            alt="Your Name" 
+          <img
+            src="/images/home-image.jpg"
+            alt="Your Name"
             className="rounded-lg w-full max-w-sm mx-auto shadow-lg"
           />
         </div>
         <div className="md:w-2/3 md:pl-8">
           <h1 className="text-4xl font-bold mb-4">Welcome to My Personal Website</h1>
           <p className="text-xl mb-4">
-            Hello! I'm [Your Name], a [Your Profession/Field] based in [Your Location].
-            I'm passionate about [Your Interests/Specialties].
+            Hello! I'm Prashant Lonikar, a Senior Analyst based in London.
+            I'm passionate about using data and technology to drive positive change.
           </p>
           <p className="text-lg mb-4">
             Explore my research, publications, projects, and more. Feel free to get in touch if you have any questions!
@@ -38,8 +38,8 @@ function Home() {
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">{post.title}</h3>
                 <p className="text-gray-600 mb-4">Published on: {post.date}</p>
-                <Link 
-                  to={`/blog/${post.id}`} 
+                <Link
+                  to={`/blog/${post.id}`}
                   className="text-blue-600 hover:text-blue-800"
                 >
                   Read more

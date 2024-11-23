@@ -12,12 +12,12 @@ function Blog() {
 
   const filteredPosts = allBlogPosts.filter(post => {
     const matchesSearch = post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          post.content.toLowerCase().includes(searchTerm.toLowerCase());
-    
+      post.content.toLowerCase().includes(searchTerm.toLowerCase());
+
     const postDate = new Date(post.date);
     const isAfterStartDate = !startDate || postDate >= new Date(startDate);
     const isBeforeEndDate = !endDate || postDate <= new Date(endDate);
-    
+
     return matchesSearch && isAfterStartDate && isBeforeEndDate;
   });
 
@@ -38,7 +38,7 @@ function Blog() {
   return (
     <div className="blog">
       <h1 className="text-4xl font-bold mb-6">Blog</h1>
-      
+
       <div className="mb-8 space-y-4">
         <input
           type="text"
@@ -82,29 +82,25 @@ function Blog() {
           <p>No blog posts found.</p>
         ) : (
           currentPosts.map((post) => (
-            <article key={post.id} className="border rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 overflow-hidden">
-                {post.image ? (
-                  <img 
-                    src={post.image} 
-                    alt={post.title} 
-                    className="w-full h-full object-cover"
-                  />
-                ) : (
-                  <div className="w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
-                )}
-              </div>
-              <div className="p-4">
-                <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
-                <p className="text-gray-600 mb-4">Published on: {post.date}</p>
-                <Link 
-                  to={`/blog/${post.id}`} 
-                  className="text-blue-600 hover:text-blue-800"
-                >
-                  Read more
-                </Link>
-              </div>
-            </article>
+            <Link to={`/blog/${post.id}`} key={post.id} className="border rounded-lg overflow-hidden shadow-md">
+              <article className="h-full">
+                <div className="h-48 overflow-hidden">
+                  {post.image ? (
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                  )}
+                </div>
+                <div className="p-4">
+                  <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
+                  <p className="text-gray-600 mb-4">Published on: {post.date}</p>
+                </div>
+              </article>
+            </Link>
           ))
         )}
       </div>

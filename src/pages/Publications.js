@@ -3,18 +3,32 @@ import React from 'react';
 function Publications() {
   const publications = [
     {
-      title: "Example Publication 1",
-      authors: "Your Name, Co-author Name",
-      journal: "Journal of Example Studies",
-      year: 2023,
-      link: "#"
+      title: "India Sustainable Debt Market State of the Market 2021",
+      authors: "Sandeep Bhattacharya, Neha Kumar, Prashant Lonikar",
+      journal: "Climate Bonds Initiative",
+      year: 2022,
+      link: "https://www.climatebonds.net/files/reports/cbi_india_sotm_2021_final.pdf"
     },
     {
-      title: "Example Publication 2",
-      authors: "Your Name, Another Co-author",
-      journal: "International Conference on Examples",
-      year: 2022,
-      link: "#"
+      title: "Sustainable Development Goals - Accountants Creating Sustainable World Part",
+      authors: "Institute of Chartered Accountants of India",
+      journal: "Institute of Chartered Accountants of India",
+      year: 2021,
+      link: "https://drive.google.com/file/d/1wJ5aTEWSuyyar9oUCnNAlSLlX_KHhTXS/view"
+    },
+    {
+      title: "Hong Kong Green Bond Market Briefing 2020",
+      authors: "Ivy Lau, Prashant Lonikar",
+      journal: "Climate Bonds Initiative",
+      year: 2021,
+      link: "https://www.climatebonds.net/files/reports/cbi_hkgb_2020_04c.pdf"
+    },
+    {
+      title: "Post-issuance Reporting in the Green Bond Market 2021",
+      authors: "Miguel Almeida, Prashant Lonikar",
+      journal: "Climate Bonds Initiative",
+      year: 2021,
+      link: "https://www.climatebonds.net/files/reports/cbi_post_issuance_2021_02g.pdf"
     }
   ];
 
