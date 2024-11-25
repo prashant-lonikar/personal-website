@@ -13,9 +13,6 @@ function Footer() {
           <a href="https://github.com/prashant-lonikar" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
             <FaGithub size={24} />
           </a>
-          <a href="https://youtube.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
-            <FaYoutube size={24} />
-          </a>
         </div>
       </div>
     </footer>
