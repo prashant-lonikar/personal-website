@@ -4,7 +4,7 @@ function Projects() {
   const projects = [
     {
       title: "Token Counter",
-      description: "This is a token counter for LLMsthat counts the number of tokens in a given text or file, and estimates the cost of the tokens per model.",
+      description: "This is a token counter for LLMs that counts the number of tokens in a given text or file, and estimates the cost of the tokens per model.",
       githubLink: "https://token-counter-two.vercel.app/"
     },
     {
