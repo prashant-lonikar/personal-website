@@ -1,8 +1,10 @@
 function importAll(r) {
-  return r.keys().map((fileName) => ({
-    link: fileName.replace(/^\.\//, '').replace(/\.md\.js$/, ''),
-    module: r(fileName)
-  }));
+  return r.keys()
+    .filter(fileName => !fileName.toLowerCase().startsWith('./ignore'))
+    .map((fileName) => ({
+      link: fileName.replace(/^\.\//, '').replace(/\.md\.js$/, ''),
+      module: r(fileName)
+    }));
 }
 
 const posts = importAll(require.context('../blogPosts', true, /\.md\.js$/));
@@ -11,7 +13,7 @@ export function getSortedPostsData() {
   const allPostsData = posts.map(({ module, link }) => ({
     id: link,
     ...module.metadata,
-    content: module.content // Include the full content of the post
+    content: module.content
   }));
 
   // Sort posts by date
