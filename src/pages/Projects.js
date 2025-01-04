@@ -35,11 +35,19 @@ function Projects() {
       <h1 className="text-4xl font-bold mb-6">Projects</h1>
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((project, index) => (
-          <div key={index} className="border p-4 rounded-lg shadow-md flex flex-col justify-between h-full">
-            <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
-            <p className="mb-4">{project.description}</p>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">View Project</a>
-          </div>
+          <a
+            key={index}
+            href={project.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border p-4 rounded-lg shadow-md flex flex-col justify-between h-full hover:shadow-lg transition-shadow cursor-pointer"
+          >
+            <div>
+              <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
+              <p className="mb-4">{project.description}</p>
+            </div>
+            <span className="text-blue-600 hover:text-blue-800">View Project</span>
+          </a>
         ))}
       </div>
     </div>
