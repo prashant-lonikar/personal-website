@@ -10,6 +10,7 @@ import BlogPost from './components/BlogPost';
 import Projects from './pages/Projects';
 import Media from './pages/Media';
 import Awards from './pages/Awards';
+import Datasets from './pages/Datasets';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/media" element={<Media />} />
             <Route path="/awards" element={<Awards />} />
+            <Route path="/datasets" element={<Datasets />} />
           </Routes>
         </main>
         <Footer />

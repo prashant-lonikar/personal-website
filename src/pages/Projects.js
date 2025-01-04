@@ -3,6 +3,11 @@ import React from 'react';
 function Projects() {
   const projects = [
     {
+      title: "Chain The Words! (Game)",
+      description: "This is a fun game that tests your vocabulary, spelling and memory skills.",
+      githubLink: "https://www.chain-the-words.com/"
+    },
+    {
       title: "Token Counter",
       description: "This is a token counter for LLMs that counts the number of tokens in a given text or file, and estimates the cost of the tokens per model.",
       githubLink: "https://token-counter-two.vercel.app/"
