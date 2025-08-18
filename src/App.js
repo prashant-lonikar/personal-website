@@ -4,10 +4,12 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
+import Work from './pages/Work';
 import Publications from './pages/Publications';
 import Blog from './pages/Blog';
 import BlogPost from './components/BlogPost';
 import Projects from './pages/Projects';
+import Hobbies from './pages/Hobbies';
 import Media from './pages/Media';
 import Awards from './pages/Awards';
 import Datasets from './pages/Datasets';
@@ -21,10 +23,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
+            <Route path="/work" element={<Work />} />
             <Route path="/publications" element={<Publications />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/hobbies" element={<Hobbies />} />
             <Route path="/media" element={<Media />} />
             <Route path="/awards" element={<Awards />} />
             <Route path="/datasets" element={<Datasets />} />

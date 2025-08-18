@@ -18,9 +18,11 @@ function Header() {
           <ul className="hidden md:flex space-x-4">
             <li><Link to="/" className="hover:text-gray-300">Home</Link></li>
             <li><Link to="/about" className="hover:text-gray-300">About</Link></li>
-            <li><Link to="/publications" className="hover:text-gray-300">Publications</Link></li>
-            <li><Link to="/blog" className="hover:text-gray-300">Blog</Link></li>
+            <li><Link to="/work" className="hover:text-gray-300">Work</Link></li>
             <li><Link to="/projects" className="hover:text-gray-300">Projects</Link></li>
+            <li><Link to="/blog" className="hover:text-gray-300">Blog</Link></li>
+            <li><Link to="/hobbies" className="hover:text-gray-300">Hobbies</Link></li>
+            <li><Link to="/publications" className="hover:text-gray-300">Publications</Link></li>
             <li><Link to="/media" className="hover:text-gray-300">Media</Link></li>
             <li><Link to="/awards" className="hover:text-gray-300">Awards</Link></li>
           </ul>
@@ -29,9 +31,11 @@ function Header() {
           <ul className="md:hidden mt-4 space-y-2">
             <li><Link to="/" className="block hover:text-gray-300" onClick={toggleMenu}>Home</Link></li>
             <li><Link to="/about" className="block hover:text-gray-300" onClick={toggleMenu}>About</Link></li>
-            <li><Link to="/publications" className="block hover:text-gray-300" onClick={toggleMenu}>Publications</Link></li>
-            <li><Link to="/blog" className="block hover:text-gray-300" onClick={toggleMenu}>Blog</Link></li>
+            <li><Link to="/work" className="block hover:text-gray-300" onClick={toggleMenu}>Work</Link></li>
             <li><Link to="/projects" className="block hover:text-gray-300" onClick={toggleMenu}>Projects</Link></li>
+            <li><Link to="/blog" className="block hover:text-gray-300" onClick={toggleMenu}>Blog</Link></li>
+            <li><Link to="/hobbies" className="block hover:text-gray-300" onClick={toggleMenu}>Hobbies</Link></li>
+            <li><Link to="/publications" className="block hover:text-gray-300" onClick={toggleMenu}>Publications</Link></li>
             <li><Link to="/media" className="block hover:text-gray-300" onClick={toggleMenu}>Media</Link></li>
             <li><Link to="/awards" className="block hover:text-gray-300" onClick={toggleMenu}>Awards</Link></li>
           </ul>
