@@ -18,13 +18,15 @@ function About() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">AI Solutions Engineer at Briink</h2>
           <p className="text-lg text-gray-700 leading-relaxed">
             I'm Prashant Lonikar, an AI Solutions Engineer with 5+ years of experience bridging the gap between cutting-edge technology and real business needs. 
-            Currently at Briink, I'm helping organizations unlock their full potential through intelligent automation.
+            Currently at Briink, I am developing products at the intersection of generative AI and sustainability. 
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            My journey started in electrical engineering, evolved through climate finance and sustainability, and now focuses on developing and selling AI products that solve real-world problems.
+            My journey started in electrical engineering, as I was interested in solar power and I gradually discovered the field of sustainability and sustainable finance.
+            After university, I joined Climate Bonds Initative, a UK-based not-for-profit, in their Market Intelligence team where I worked on analysing green, social and sustainbility bonds and loans.
+            This involved working with CBI's flagship green bond database. To further my understanding of data and technology, I decided to pursue a master's in business analytics from Imperial College London while working full-time.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            I believe in the power of working prototypes over wireframes, speaking both technical and business languages, and building genuine customer relationships based on mutual success.
+            After 3 years at CBI, I joined ClimateAligned as its first employee, working on developing generative AI products for asset managers. 
           </p>
         </div>
       </div>
@@ -34,17 +36,17 @@ function About() {
         <h2 className="text-3xl font-semibold mb-6 text-gray-800">Career Journey</h2>
         <div className="space-y-6">
           <div className="border-l-4 border-blue-600 pl-6 py-2">
-            <h3 className="text-xl font-semibold text-gray-800">AI Customer Solutions Engineer at Briink</h3>
-            <p className="text-gray-600">2024 - Present</p>
+            <h3 className="text-xl font-semibold text-gray-800">AI Customer Solutions Engineer at Briink Intelligence</h3>
+            <p className="text-gray-600">2025 - Present</p>
             <p className="text-gray-700 mt-2">
               Leading customer solutions engineering division, conducting pilots with large corporates and asset managers, 
-              and bridging sales and engineering teams to deliver exceptional customer experiences.
+              and bridging sales and engineering teams to deliver new products and customer success.
             </p>
           </div>
           
           <div className="border-l-4 border-green-600 pl-6 py-2">
             <h3 className="text-xl font-semibold text-gray-800">Senior Analyst at ClimateAligned</h3>
-            <p className="text-gray-600">2022 - 2024</p>
+            <p className="text-gray-600">2023 - 2025</p>
             <p className="text-gray-700 mt-2">
               Specialized in AI applications for sustainability and climate finance, developing innovative solutions 
               and building strong client relationships in the environmental sector.
@@ -52,8 +54,8 @@ function About() {
           </div>
           
           <div className="border-l-4 border-purple-600 pl-6 py-2">
-            <h3 className="text-xl font-semibold text-gray-800">Analyst & Early Career</h3>
-            <p className="text-gray-600">2019 - 2022</p>
+            <h3 className="text-xl font-semibold text-gray-800">Data Analyst at Climate Bonds Initiative</h3>
+            <p className="text-gray-600">2020 - 2023</p>
             <p className="text-gray-700 mt-2">
               Built foundation in data analysis, sustainability, and technology applications while pursuing advanced education.
             </p>
@@ -67,12 +69,14 @@ function About() {
           <h2 className="text-2xl font-semibold mb-4 text-gray-800">Education</h2>
           <div className="space-y-3">
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h3 className="font-semibold text-gray-800">Master's Degree</h3>
-              <p className="text-gray-600">Completed while working full-time</p>
+              <h3 className="font-semibold text-gray-800">Master's in Business Analytics - Imperial College Business School</h3>
+              <p className="text-gray-600">Grade: Distinction ; 
+              Activities and societies: Careers Leader, Student Staff Committee (SSC) ; Student Ambassador</p>
             </div>
             <div className="bg-gray-50 p-4 rounded-lg">
-              <h3 className="font-semibold text-gray-800">Bachelor's in Electrical Engineering</h3>
-              <p className="text-gray-600">Strong technical foundation</p>
+              <h3 className="font-semibold text-gray-800">Bachelor's in Electrical Engineering - BITS Pilani</h3>
+              <p className="text-gray-600">Grade: First Division ; 
+              Activities and societies: Member: Student-Faculty Council, Department of Photography, Wall Street Club</p>
             </div>
           </div>
         </div>
@@ -100,9 +104,8 @@ function About() {
       <div>
         <h2 className="text-2xl font-semibold mb-4 text-gray-800">Beyond the Professional</h2>
         <p className="text-lg text-gray-700 mb-4">
-          When I'm not developing AI solutions or working with clients, I'm constantly tinkering with new technologies, 
-          experimenting with generative AI, and exploring innovative applications. I believe in continuous learning and 
-          staying at the forefront of technological advancement.
+          When I am not developing AI solutions or working with clients, I like to tinker with new technologies, 
+          experimenting with generative AI, and exploring innovative applications. It's fun and also helps me learn! I am also currently studying Mandarin Chinese and love to play and watch tennis!
         </p>
         <div className="flex flex-wrap gap-3">
           <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">AI Experimentation</span>
