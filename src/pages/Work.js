@@ -9,23 +9,23 @@ function Work() {
       proofPoints: [
         {
           title: "GHG Data Finder",
-          description: "Developed a comprehensive tool for finding and analyzing greenhouse gas data, helping sustainability teams make data-driven decisions.",
-          impact: "Streamlined data discovery process by 60%"
+          description: "Developed a comprehensive tool for finding and analyzing greenhouse gas data, helping sustainability teams reduce spend on data providers.",
+          impact: "Introduced a new product line for the company"
         },
         {
           title: "AI-in-Spreadsheets",
-          description: "Built AI-powered spreadsheet tools before Google launched similar features, demonstrating early market understanding and technical capability.",
-          impact: "Pioneered AI integration in familiar tools"
+          description: "Built AI-powered spreadsheet formula (before Google launched the same thing!), to help myself and my team automate unstructured work in spreadsheets.",
+          impact: "Increased Excel-based task speed by 80% for colleagues"
         },
         {
           title: "AI for Real Estate",
-          description: "Created innovative AI solutions for real estate analysis, combining multiple data sources for comprehensive property insights.",
-          impact: "Enhanced decision-making accuracy by 40%"
+          description: "Working on tools to help buyers and sellers better comply with real-estate regulations. Currently work-in-progress.",
+          impact: "Automatic repetitive compliance tasks using AI"
         },
         {
           title: "New Web Scanner",
-          description: "Developed advanced web scanning capabilities for data extraction and analysis, solving complex information gathering challenges.",
-          impact: "Reduced manual data collection time by 80%"
+          description: "Developed AI-agents to find verified corporate information from the internet with source references and zero hallucination.",
+          impact: "Reduced manual data collection time by 90%"
         }
       ],
       icon: "🔧",
@@ -33,23 +33,23 @@ function Work() {
     },
     {
       title: "Bridge Sales & Engineering",
-      subtitle: "Every sales person should speak tech. Speaking both languages is key to managing expectations",
+      subtitle: "Speaking both languages is key to delivering rapid value while managing expectations",
       description: "I serve as the crucial link between technical teams and sales organizations, ensuring clear communication and realistic expectations that lead to successful implementations.",
       proofPoints: [
         {
           title: "Customer Solutions Engineering Division",
-          description: "Started and led the customer solutions engineering division at Briink, establishing processes and best practices from the ground up.",
-          impact: "Built team from 0 to full division"
+          description: "Started and leading the customer solutions engineering division at Briink, establishing processes and best practices from the ground up.",
+          impact: "Mitigating client churn"
         },
         {
           title: "Large Corporate Pilots",
           description: "Conducted over half a dozen pilots single-handedly with large corporates and asset managers, demonstrating technical expertise and business acumen.",
-          impact: "100% pilot success rate"
+          impact: "Creating new revenue streams and validating product ideas"
         },
         {
           title: "Cross-Team Collaboration",
           description: "Facilitated seamless communication between engineering, sales, and customer success teams, ensuring project alignment and delivery.",
-          impact: "Reduced project delays by 30%"
+          impact: "Scoping solutions, defining timelines, executing prototypes"
         }
       ],
       icon: "🌉",
@@ -58,22 +58,22 @@ function Work() {
     {
       title: "Build Customer Relationships",
       subtitle: "Customers want you to succeed so they can succeed. It's not a battle.",
-      description: "I focus on building genuine partnerships with clients, understanding their challenges deeply, and working collaboratively to achieve mutual success.",
+      description: "Being able to speak the analyst and customer language, I focus on building genuine partnerships with clients, understanding their challenges deeply, and working collaboratively to achieve mutual success.",
       proofPoints: [
         {
           title: "Client Webinars & Training",
           description: "Conducted in-person and online webinars for clients about using generative AI in their work, building trust and expertise sharing.",
-          impact: "Increased client engagement by 150%"
+          impact: "Increased client engagement"
         },
         {
-          title: "Churned Client Recovery",
+          title: "Churned and Cold Client Recovery",
           description: "Successfully brought back previously churned clients through relationship rebuilding and demonstrating renewed value proposition.",
-          impact: "80% client recovery rate"
+          impact: "Revamping the client pipeline"
         },
         {
           title: "Long-term Partnerships",
-          description: "Developed lasting relationships with key clients, becoming their trusted advisor for AI and technology decisions.",
-          impact: "95% client retention rate"
+          description: "Developing lasting relationships with key clients, becoming their trusted problem-solver, and advisor for AI and technology decisions.",
+          impact: "Increasing client retention rate"
         }
       ],
       icon: "🤝",
@@ -154,25 +154,6 @@ function Work() {
             </div>
           );
         })}
-      </div>
-
-      {/* Results Summary */}
-      <div className="mt-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white text-center">
-        <h2 className="text-3xl font-bold mb-6">Impact at Scale</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div>
-            <div className="text-4xl font-bold mb-2">5+</div>
-            <div className="text-blue-100">Years Experience</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold mb-2">100%</div>
-            <div className="text-blue-100">Pilot Success Rate</div>
-          </div>
-          <div>
-            <div className="text-4xl font-bold mb-2">80%</div>
-            <div className="text-blue-100">Client Recovery Rate</div>
-          </div>
-        </div>
       </div>
 
       {/* Call to Action */}
