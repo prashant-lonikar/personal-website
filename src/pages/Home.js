@@ -17,14 +17,14 @@ function Home() {
           />
         </div>
         <div className="md:w-2/3 md:pl-8">
-          <h1 className="text-5xl font-bold mb-6 text-gray-800">
+          <h1 className="text-4xl font-bold mb-6 text-gray-800">
             I am a solutions engineer developing and selling AI products for the future
           </h1>
           <p className="text-xl mb-6 text-gray-600 leading-relaxed">
-            Analysts are spending too much time on non-analysis tasks and companies are losing out on business due to resource restrictions.
+          I bridge the gap between cutting-edge AI technology and real business needs, by leveraging my unique backgrounds in engineering, sales and data analysis. 
           </p>
           <p className="text-lg mb-6 text-gray-700">
-            At Briink, I bridge the gap between cutting-edge AI technology and real business needs, helping organizations unlock their full potential through intelligent automation.
+          Currently at Briink Intelligence, I am the founding member of the solutions engineering and customer success vertical. Previously I was the first hire at ClimateAligned, and earlier a sustainability debt data analyst at Climate Bonds Initiative.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/work" className="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold">
@@ -49,7 +49,7 @@ function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-3 text-gray-800">Design & Prototype</h3>
             <p className="text-gray-600 mb-3">
-              Working prototypes over wireframes: the magic of customers trying tools is unmatched
+              I prefer making working prototypes over wireframes: the magic of customers trying tools is unmatched
             </p>
             <Link to="/work" className="text-blue-600 hover:text-blue-800 font-medium">Learn More →</Link>
           </div>
@@ -62,7 +62,7 @@ function Home() {
             </div>
             <h3 className="text-xl font-semibold mb-3 text-gray-800">Bridge Sales & Engineering</h3>
             <p className="text-gray-600 mb-3">
-              Every sales person should speak tech. Speaking both languages is key to managing expectations
+              Speaking both languages is key to delivering rapid value while managing expectations
             </p>
             <Link to="/work" className="text-green-600 hover:text-green-800 font-medium">Learn More →</Link>
           </div>
