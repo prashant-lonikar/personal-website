@@ -197,7 +197,7 @@ function Hobbies() {
           Want to discuss any of these interests or find common ground?
         </p>
         <a 
-          href="mailto:your-email@example.com" 
+          href="mailto:prashant.lonikar@gmail.com" 
           className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition duration-300 font-semibold"
         >
           Let's Connect

@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { getSortedPostsData } from '../utils/blogPosts';
+import { projects as allProjects } from '../utils/projects';
 
 function Home() {
   const recentPosts = getSortedPostsData().slice(0, 3);
+  const recentProjects = allProjects.slice(0, 3);
 
   return (
     <div className="home">
@@ -82,6 +84,43 @@ function Home() {
         </div>
       </div>
 
+      {/* Featured Projects (3 cards) */}
+      <div className="mb-12">
+        <div className="flex items-baseline justify-between mb-6">
+          <h2 className="text-3xl font-semibold text-gray-800">Featured Projects</h2>
+          <Link to="/projects" className="text-blue-600 hover:text-blue-800 font-medium">View all →</Link>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {recentProjects.map((project, index) => (
+            <article key={index} className="border rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-4">
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+                <p className="text-gray-600 mb-4 text-sm leading-relaxed">{project.description}</p>
+                {project.link !== '#' ? (
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 font-medium"
+                  >
+                    View project →
+                  </a>
+                ) : (
+                  <span className="text-gray-500">Coming soon</span>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      </div>
+
       {/* Recent Blog Posts */}
       <div className="mb-12">
         <h2 className="text-3xl font-semibold mb-6 text-gray-800">Recent Blog Posts</h2>
@@ -103,20 +142,6 @@ function Home() {
         </div>
         <div className="mt-6 text-center">
           <Link to="/blog" className="text-blue-600 hover:text-blue-800 font-medium">View All Blog Posts</Link>
-        </div>
-      </div>
-
-      {/* Quick Links */}
-      <div className="grid md:grid-cols-2 gap-6">
-        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Featured Projects</h2>
-          <p className="text-gray-600 mb-4">Explore some of my notable projects and contributions in AI and sustainability.</p>
-          <Link to="/projects" className="text-blue-600 hover:text-blue-800 font-medium">View Projects →</Link>
-        </div>
-        <div className="border rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
-          <h2 className="text-2xl font-semibold mb-4 text-gray-800">Beyond Work</h2>
-          <p className="text-gray-600 mb-4">Discover my interests, hobbies, and what I'm learning outside of work.</p>
-          <Link to="/hobbies" className="text-blue-600 hover:text-blue-800 font-medium">Learn More →</Link>
         </div>
       </div>
     </div>
