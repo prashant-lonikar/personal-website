@@ -111,7 +111,7 @@ function Projects() {
     <div className="projects">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-6 text-gray-800">Projects & Innovations</h1>
+        <h1 className="text-5xl font-bold mb-6 text-gray-800">My Projects</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
           A collection of projects that showcase my passion for AI, sustainability, and building useful tools. 
           From professional solutions to fun experiments, each project represents a learning opportunity and a chance to solve real problems.
