@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div className="md:w-2/3 md:pl-8">
           <h1 className="text-4xl font-bold mb-6 text-gray-800">
-            I am a solutions engineer developing and selling AI products for the future
+            I am a solutions engineer developing and selling AI products
           </h1>
           <p className="text-xl mb-6 text-gray-600 leading-relaxed">
           I bridge the gap between cutting-edge AI technology and real business needs, by leveraging my unique backgrounds in engineering, sales and data analysis. 
