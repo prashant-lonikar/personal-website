@@ -7,7 +7,7 @@ function Publications() {
       authors: "Sandeep Bhattacharya, Neha Kumar, Prashant Lonikar",
       journal: "Climate Bonds Initiative",
       year: 2022,
-      link: "https://www.climatebonds.net/files/reports/cbi_india_sotm_2021_final.pdf"
+      link: "https://www.climatebonds.net/files/documents/publications/India-Sustainable-Debt-Market-State-of-the-Market-2021-report.pdf"
     },
     {
       title: "Sustainable Development Goals - Accountants Creating Sustainable World Part",
@@ -21,14 +21,14 @@ function Publications() {
       authors: "Ivy Lau, Prashant Lonikar",
       journal: "Climate Bonds Initiative",
       year: 2021,
-      link: "https://www.climatebonds.net/files/reports/cbi_hkgb_2020_04c.pdf"
+      link: "https://www.climatebonds.net/files/documents/publications/Hong-Kong-Green-Bond-Market-Briefing-2020.pdf"
     },
     {
       title: "Post-issuance Reporting in the Green Bond Market 2021",
       authors: "Miguel Almeida, Prashant Lonikar",
       journal: "Climate Bonds Initiative",
       year: 2021,
-      link: "https://www.climatebonds.net/files/reports/cbi_post_issuance_2021_02g.pdf"
+      link: "https://www.climatebonds.net/files/documents/publications/Post-Issuance-Reporting-in-the-Green-Bond-Market-2021.pdf"
     }
   ];
 
