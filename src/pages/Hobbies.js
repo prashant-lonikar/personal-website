@@ -65,32 +65,25 @@ function Hobbies() {
         details: "Creating AI-powered tools, experimenting with prompt engineering, and exploring new applications.",
         icon: "🧪"
       },
-      {
-        title: "Open Source Contribution",
-        description: "Contributing to projects that align with my interests in AI, sustainability, and productivity.",
-        status: "Occasional",
-        details: "Small contributions, bug fixes, and documentation improvements.",
-        icon: "🔓"
-      }
     ],
     culture: [
       {
-        title: "Favorite Movies",
-        description: "Big fan of thought-provoking sci-fi, intelligent thrillers, and films that challenge perspectives.",
+        title: "Movies & TV",
+        description: "Big fan of media that involves complex world building. Zack Snyder movies and Kitchen Nightmares are my guilty pleasures.",
         status: "Always Watching",
-        details: "Recent favorites include 'Arrival', 'Ex Machina', 'The Martian', and classic Kubrick films.",
+        details: "Recent favorites include 'Dune' and 'Arrival' in films and 'Succession' in TV.",
         icon: "🎬"
       },
       {
         title: "Reading",
-        description: "Mix of technical books, science fiction, and non-fiction that expands my worldview.",
+        description: "Mix of technical books, science fiction, and non-fiction that expands my worldview. Enid Blyton was my introduction to fiction.",
         status: "Regular",
-        details: "Currently reading about quantum computing, climate science, and AI ethics.",
+        details: "Currently reading 'Why We Sleep'.",
         icon: "📖"
       },
       {
         title: "Music",
-        description: "Eclectic taste ranging from classical to electronic, with a soft spot for ambient and instrumental.",
+        description: "Classical music and songs from the 80s. Hard to beat.",
         status: "Daily",
         details: "Often listen while coding, reading, or during long work sessions.",
         icon: "🎵"
@@ -196,14 +189,7 @@ function Hobbies() {
         </div>
       </div>
 
-      {/* Personal Philosophy */}
-      <div className="mt-16 bg-gradient-to-r from-gray-50 to-blue-50 rounded-2xl p-8 text-center">
-        <h2 className="text-2xl font-semibold mb-4 text-gray-800">My Personal Philosophy</h2>
-        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-          "I believe that continuous learning, curiosity, and genuine interest in diverse topics make us better professionals and more interesting people. 
-          The best ideas often come from unexpected connections between seemingly unrelated fields."
-        </p>
-      </div>
+
 
       {/* Call to Action */}
       <div className="mt-12 text-center">
