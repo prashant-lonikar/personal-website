@@ -11,13 +11,23 @@ export const projects = [
   },
   {
     title: "AI-in-Spreadsheets",
-    description: "Built AI-powered formulae in Google Sheets to enable new workflows involving textual information in cells",
+    description: "Built AI-powered formulae in Google Sheets to enable new workflows involving textual information in cells. Allows multiple LLMs beyond just the Gemini family.",
     category: "ai",
     technologies: ["Apps Script", "Anthropic Claude 4"],
     impact: "Being used by team members for complex spreadsheet tasks",
     status: "Deployed internally at Briink",
     link: "#",
     image: "/images/ai-in-spreadsheets.png"
+  },
+  {
+    title: "LinkedIn Post Categorizer",
+    description: "Built an LLM-powered post categorizer that flags posts according to a user-defined labelling system to highlight relevant posts and filter out irrelevant ones.",
+    category: "ai",
+    technologies: ["LLM", "Chrome Extension"],
+    impact: "Being used to personalise users' LinkedIn experience.",
+    status: "Active",
+    link: "https://chromewebstore.google.com/detail/linkedin-post-categorizer/mcdobkigeopfgfhbhnjflaecmigfpjpd",
+    image: "/images/linkedin-post-categorizer.png"
   },
   {
     title: "AI for Real Estate",
