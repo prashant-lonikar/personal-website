@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "ESG Roundup",
+    description: "Website for aggregating ESG news with AI analysis for easier search and filtering.",
+    category: "ai",
+    technologies: ["Python", "Google Gemini"],
+    impact: "Used by users from 15 countries to track ESG news",
+    status: "Active",
+    link: "https://esgroundup.com/",
+    image: "/images/esg-roundup.png"
+  },
+  {
     title: "GHG Data Finder",
     description: "AI agent for searching, extracting, verifying and structuring GHG information from company's disclosures.",
     category: "sustainability",
