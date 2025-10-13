@@ -50,6 +50,11 @@ const PDFs = () => {
       description: 'Updated Aadhaar card document'
     },
     {
+      path: '/pdfs/newform.pdf',
+      title: 'New Form',
+      description: 'New application form document'
+    },
+    {
       path: '/pdfs/Old Passport.pdf',
       title: 'Previous Passport',
       description: 'Previous passport document'
