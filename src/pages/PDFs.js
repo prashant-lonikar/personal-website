@@ -55,6 +55,11 @@ const PDFs = () => {
       description: 'New application form document'
     },
     {
+      path: '/pdfs/newform 3.pdf',
+      title: 'New Form 3',
+      description: 'Updated application form document'
+    },
+    {
       path: '/pdfs/Old Passport.pdf',
       title: 'Previous Passport',
       description: 'Previous passport document'
