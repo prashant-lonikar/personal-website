@@ -30,6 +30,11 @@ const PDFs = () => {
       description: 'Confirmed appointment details'
     },
     {
+      path: '/pdfs/finalform.pdf',
+      title: 'Final Form',
+      description: 'Final application form document'
+    },
+    {
       path: '/pdfs/Immigration status.pdf',
       title: 'Immigration Status',
       description: 'Current immigration status document'
