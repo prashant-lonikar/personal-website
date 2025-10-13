@@ -13,7 +13,6 @@ import Hobbies from './pages/Hobbies';
 import Media from './pages/Media';
 import Awards from './pages/Awards';
 import Datasets from './pages/Datasets';
-import PDFs from './pages/PDFs';
 
 function App() {
   return (
@@ -33,7 +32,6 @@ function App() {
             <Route path="/media" element={<Media />} />
             <Route path="/awards" element={<Awards />} />
             <Route path="/datasets" element={<Datasets />} />
-            <Route path="/pdfs" element={<PDFs />} />
           </Routes>
         </main>
         <Footer />
