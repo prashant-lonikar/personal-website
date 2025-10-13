@@ -5,21 +5,70 @@ const PDFs = () => {
   // List of your PDF documents
   const pdfDocuments = [
     {
-      path: '/pdfs/sample-resume.pdf',
-      title: 'Resume',
-      description: 'My professional resume and CV'
+      path: '/pdfs/[Backup] BRP Prashant Lonikar.pdf',
+      title: 'BRP Document (Backup)',
+      description: 'Biometric Residence Permit backup document'
     },
-    // Add more PDFs here as you upload them
-    // {
-    //   path: '/pdfs/research-paper.pdf',
-    //   title: 'Research Paper',
-    //   description: 'My latest research publication'
-    // },
-    // {
-    //   path: '/pdfs/portfolio.pdf',
-    //   title: 'Portfolio',
-    //   description: 'Complete portfolio of my work'
-    // }
+    {
+      path: '/pdfs/1B PAN CARD PRASHANT LONIKAR.pdf',
+      title: 'PAN Card',
+      description: 'Permanent Account Number card document'
+    },
+    {
+      path: '/pdfs/Annexure E.pdf',
+      title: 'Annexure E',
+      description: 'Supporting document'
+    },
+    {
+      path: '/pdfs/Application Form.pdf',
+      title: 'Application Form',
+      description: 'Official application form'
+    },
+    {
+      path: '/pdfs/Appointment Confirmation.pdf',
+      title: 'Appointment Confirmation',
+      description: 'Confirmed appointment details'
+    },
+    {
+      path: '/pdfs/Immigration status.pdf',
+      title: 'Immigration Status',
+      description: 'Current immigration status document'
+    },
+    {
+      path: '/pdfs/indian-passport-checklist-minor_new.pdf',
+      title: 'Indian Passport Checklist (Minor)',
+      description: 'Checklist for minor passport applications'
+    },
+    {
+      path: '/pdfs/NEW Aadhaar Prashant Lonikar 2022.pdf',
+      title: 'Aadhaar Card (2022)',
+      description: 'Updated Aadhaar card document'
+    },
+    {
+      path: '/pdfs/Old Passport.pdf',
+      title: 'Previous Passport',
+      description: 'Previous passport document'
+    },
+    {
+      path: '/pdfs/Share code.pdf',
+      title: 'Share Code',
+      description: 'Official share code document'
+    },
+    {
+      path: '/pdfs/tatkal-undertaking.pdf',
+      title: 'Tatkal Undertaking',
+      description: 'Tatkal service undertaking form'
+    },
+    {
+      path: '/pdfs/UK Address Proof.pdf',
+      title: 'UK Address Proof',
+      description: 'Proof of UK address document'
+    },
+    {
+      path: '/pdfs/VFS Declaration.pdf',
+      title: 'VFS Declaration',
+      description: 'VFS Global declaration form'
+    }
   ];
 
   return (
