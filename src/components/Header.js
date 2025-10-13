@@ -25,6 +25,7 @@ function Header() {
             <li><Link to="/publications" className="hover:text-gray-300">Publications</Link></li>
             <li><Link to="/media" className="hover:text-gray-300">Media</Link></li>
             <li><Link to="/awards" className="hover:text-gray-300">Awards</Link></li>
+            <li><Link to="/pdfs" className="hover:text-gray-300">PDFs</Link></li>
           </ul>
         </div>
         {isOpen && (
@@ -38,6 +39,7 @@ function Header() {
             <li><Link to="/publications" className="block hover:text-gray-300" onClick={toggleMenu}>Publications</Link></li>
             <li><Link to="/media" className="block hover:text-gray-300" onClick={toggleMenu}>Media</Link></li>
             <li><Link to="/awards" className="block hover:text-gray-300" onClick={toggleMenu}>Awards</Link></li>
+            <li><Link to="/pdfs" className="block hover:text-gray-300" onClick={toggleMenu}>PDFs</Link></li>
           </ul>
         )}
       </nav>
